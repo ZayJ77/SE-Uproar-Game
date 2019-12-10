@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This is a script used to load to the correct map scene from the character select screen
+
 public class SceneLoader : MonoBehaviour
 {
     public void LoadNextScene() //Loads the scene with the selected map
