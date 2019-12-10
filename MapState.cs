@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This script is used to create and return the attributes of a MapState object
+//MapStates are used to change and determine the maps from the character select screen
+
 [CreateAssetMenu(menuName = "MapState")] //Creates option to create a MapState object
 public class MapState : ScriptableObject
 {
