@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This script is used to change the states on the character select screen on input so that
+// characters and maps can be selected from sets of 3.
+
 public class Select : MonoBehaviour
 {
     
@@ -49,7 +52,7 @@ public class Select : MonoBehaviour
             state1 = nextStates[0];
         }
 
-        nextStates = state2.GetNextStates(); //ets list of available character states for P2
+        nextStates = state2.GetNextStates(); //Gets list of available character states for P2
 
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
