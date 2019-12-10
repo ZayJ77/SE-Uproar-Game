@@ -1,4 +1,8 @@
-﻿using System.Collections;
+/*
+*Class PlayerController2 contains all of player 2's functions: control buttons, damage/health system, 
+*and animations.
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
