@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//This script is used to display the correct win screen image for the right player. 
+//Also contains the methods for returning to previous scenes from the end screen.
+
 public class EndOp : MonoBehaviour
 {
 
