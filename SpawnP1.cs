@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//This script is used to spawn the chosen character for player 1.
+//There is a script called SpawnP2 that does the same for the second player.
+
 public class SpawnP1 : MonoBehaviour
 {
 
