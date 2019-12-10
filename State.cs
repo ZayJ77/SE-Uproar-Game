@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//This script is used to create and return the attributes of State objects.
+//State objects are used to store the icons for the characters on the select screen.
+
 [CreateAssetMenu(menuName = "State")] //Creates option to create State object
 public class State : ScriptableObject
 {
