@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//TurnOfTut is an old name, this script is used to manage multiple elements of the combat screen.
+//This script is used to delete the tutorial window, create the right character icons beside the life bars,
+// and allows us to use Esc to return to the character select screen as a debug tool.
+
 public class TurnOffTut : MonoBehaviour
 {
     [SerializeField] Canvas canvas; //Canvas object with the tutorial display
