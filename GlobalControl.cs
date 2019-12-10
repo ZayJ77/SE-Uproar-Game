@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Creates an instance of an object that stores variables for use throughout multiple scenes.
+
 public class GlobalControl : MonoBehaviour
 {
 
