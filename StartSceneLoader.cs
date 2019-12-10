@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This script is used to load from the start screen to the character select screen.
+
 public class StartSceneLoader : MonoBehaviour
 {
     public void LoadNextScene() //Loads char select screen
